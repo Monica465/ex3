@@ -1,0 +1,149 @@
+header{
+background-image: url(img/cafe.jpg);
+margin: 0%;
+height: 500px;
+display: block;
+}
+
+
+#breakfast-lg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:-1;
+}
+
+@media (min-width: 500px) {
+  main {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  .full-width {
+    margin-left: calc(-100vw / 2 + 500px / 2);
+    margin-right: calc(-100vw / 2 + 500px / 2);
+  }
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h1{
+font-size: 8vw;
+font-family: palatino;
+letter-spacing: .1em;
+text-align: center;
+margin:20px 0px 5px 0px;
+color: white;
+}
+
+nav{
+text-decoration: none;
+font-size: 2vw;
+color: #FFFFFF;
+font-family: verdana;
+margin: 1em;
+display: block;
+text-align: center;
+justify-content: distribute;
+}
+
+#logo{
+  margin: 5px 0px 0px 5px;
+  height: 150px;
+  display: block;
+  -webkit-filter: grayscale(100%);
+}
+
+
+a:link,
+a:visited{
+    color: white;
+    font-family: verdana;
+    text-decoration: none;
+  }
+
+a:hover,
+a:focus,
+a:active{
+    color: rgba(245, 222, 179, 1);
+    font-family: verdana;
+    text-decoration: none;
+}
+
+
+.container{
+width: 1180px;
+margin-left: auto;
+margin-right: auto;
+}
+
+h2{
+font-size: 18pt;
+font-family: verdana;
+letter-spacing: .25em;
+font-weight: normal;
+z-index:3;
+}
+
+h3{
+font-size: 20pt;
+font-family: palatino;
+letter-spacing: .1em;
+}
+
+p{
+font-size: calc(14px + 1vw);
+font-family: palatino;
+letter-spacing:.1em;
+}
+
+p:first-child{
+  line-height:1.5
+}
+
+p::first-letter{
+ font-weight:bold;
+}
+
+h2 + img {
+ border-style: none none none solid;
+}
+
+footer>a:nth-last-of-type(1){
+ color: black;
+ text-align: center;
+ font-size: 12pt;
+}
+
+span.menu_bullets {
+float: right;
+margin: 0em;
+height: 168.5px;
+width: 800px;
+color: white;
+background-color: black;
+padding: 1em;
+font-size: 12pt;
+font-family: verdana;
+font-weight: normal;
+line-height: 2em;
+}
+
+#breakfast, #lunch, #dinner{
+box-sizing: border-box;
+height: 275px;
+border-style: none dotted dotted none;
+padding: 0px 20px 20px 0px;
+margin: 60px 0px 0px 0px;
+}
